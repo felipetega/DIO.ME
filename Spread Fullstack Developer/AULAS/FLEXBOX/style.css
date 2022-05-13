@@ -1,0 +1,23 @@
+.flex-container{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.flex-item{
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color:white;
+  text-align: center;
+  margin: 5px;
+}
+.row{
+  flex-direction: row;
+}
+.row-reverse li{
+  flex-direction: row-reverse;
+  background-color: red;
+}

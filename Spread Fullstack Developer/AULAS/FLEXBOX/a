@@ -1,0 +1,18 @@
+display: flex = flex container (torna todos os elementos internos
+flex items)
+
+flex direction = alinhamento (vertical, horizontal, reverso)
+
+flex wrap = quebra de linha (abaixo, acima)
+
+flex flow = flex direction+flex wrap
+
+justify content = justifica os items (flex-start,flex-end,center,space-between, space-around)
+
+align items = alinhamento de acordo com o eixo do container (center, stretch, flex-start, flex-end, baseline)
+
+align content = alinhamento das linhas do container do eixo vertical
+(center, stretch,flex-start,flex-end,space-between,space-around)
+*precisa de quebra de linha
+alturaContainer>soma das linhas dos itens
+
