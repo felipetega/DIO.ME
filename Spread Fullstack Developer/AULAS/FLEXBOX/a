@@ -16,3 +16,7 @@ align content = alinhamento das linhas do container do eixo vertical
 *precisa de quebra de linha
 alturaContainer>soma das linhas dos itens
 
+flex grow = capacidade de crescimento do item, não funciona com justify content
+
+flex-shrink = capacidade de redução do item
+
