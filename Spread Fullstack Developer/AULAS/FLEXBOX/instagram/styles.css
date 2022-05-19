@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.flex-container {
+  display: flex;
+  max-width: 992px;
+  margin: auto;
+  width: 100%;
+  min-width: 320px;
+}
+.phone{
+  display: flex;
+}
+.square{
+  display: flex;
+}
