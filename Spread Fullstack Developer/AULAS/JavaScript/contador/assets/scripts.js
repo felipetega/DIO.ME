@@ -17,3 +17,12 @@ function decrement(){
     numeroHTML.innerHTML=numeroAtual
   }
 }
+function corDeFundo(){
+  if (numeroAtual==0){
+    document.body.style.background="lightblue"
+  }else if (numeroAtual>0){
+    document.body.style.background="lightgreen"
+  }else if (numeroAtual<0){
+    document.body.style.background="lightpink"
+  }
+}
