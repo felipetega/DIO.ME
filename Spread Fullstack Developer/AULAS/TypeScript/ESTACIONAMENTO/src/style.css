@@ -1,0 +1,32 @@
+html,body{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  font: normal 14px Arial;
+}
+.cabecalho{
+  background-color: whitesmoke;
+  color: black;
+  padding: 30px 0px;
+  width: 100%;
+  text-align: center;
+}
+.conteudo{
+  flex: 1 0 auto;
+  padding: 20px;
+}
+.rodape{
+  position: absolute;
+  bottom: 0;
+  background-color: whitesmoke;
+  font: italic 14px Arial Black;
+  padding: 20px 0px;
+  width: 100%;
+  text-align: center;
+}

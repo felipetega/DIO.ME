@@ -5,34 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Estacionamento</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div>
-      <input
+    <header class="cabecalho">
+      cabeçalho
+    </header>
+    <main>
+      
+      <div class="conteudo">
+        <input
         type="text"
         id="name"
         placeholder="Nome do veículo"
         autocomplete="off"
-      />
-      <input
+        />
+        <input
         type="text"
         id="licence"
         placeholder="Placa do veículo"
         autocomplete="off"
-      />
-      <button id="send" class="success">Registrar</button>
-    </div>
-    <table>
-      <thead>
-        <tr>
-          <th>Veículo</th>
-          <th>Placa</th>
-          <th>Entrada</th>
-          <th>Ações</th>
-        </tr>
-      </thead>
-      <tbody id="garage"></tbody>
-    </table>
+        />
+        <button id="send" class="success">Registrar</button>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Veículo</th>
+            <th>Placa</th>
+            <th>Entrada</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="garage"></tbody>
+      </table>
+      
+    </main>
+
+    <footer class="rodape" onmouseover="pisca()">
+      Felipe &copy; Ribeiro
+    </footer>
   </body>
 
   <script src="main.js"></script>
