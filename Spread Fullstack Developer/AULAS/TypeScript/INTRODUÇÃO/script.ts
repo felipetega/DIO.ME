@@ -19,4 +19,3 @@ const cachorro: IAnimal = {
   tipo:"terrestre",
   domestico:true
 }
-

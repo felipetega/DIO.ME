@@ -9,10 +9,10 @@ const PET = {
 function getNome(){
   console.log(this.nome)
 }
-function getIdade(){
-  console.log(this.idade)
+function getIdade({idade:id}){
+  console.log(id)
 }
-getNome.call(PET)
-getIdade.call(PET)
+getNome.call(PET) //com o this
+getIdade(PET)    //sem o this
 
 //this: call, apply, bind
