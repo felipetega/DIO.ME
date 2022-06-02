@@ -5,6 +5,20 @@
 - Spread Fullstack Developer [98horas]
 
 ## Desafios
-### [JavaScript](https://github.com/felipetega/DIO.ME/tree/git/DESAFIOS)
-- [Desafios Iniciais JavaScript](https://github.com/felipetega/DIO.ME/tree/git/DESAFIOS/Desafios%20Iniciais%20JavaScript)
-- [Desafios Iniciais JavaScript](https://github.com/felipetega/DIO.ME/tree/git/DESAFIOS/Desafios%20Intermedi%C3%A1rios%20JavaScript)
+### JavaScript
+- [AnáliseDeNúmeros](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/AnaliseDeNumeros.js)
+- [BrinquedosDoPapaiNoel](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/BrinquedosDoPapaiNoel.js)
+- [CoxinhaDeBueno](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/CoxinhaDeBueno.js)
+- [DividindoXporY](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/DividindoXporY.js)
+- [ExibindoNúmerosPares](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/ExibindoNumerosPares.js)
+- [FibonacciRápido](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/FibonacciRapido.js)
+- [Galopeira](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/Galopeira.js)
+- [Ho Ho Ho](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/Ho%20Ho%20Ho.js)
+- [Idades](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/Idades.js)
+- [Mês](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/Mes.js)
+- [OEscolhido](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/OEscolhido.js)
+- [PreenchimentoDeVetor](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/PreenchimentoDeVetor.js)
+- [QuadradoEAoCubo](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/QuadradoEAoCubo.js)
+- [Saída1](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/Saida1.js)
+- [SomaSimples](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/SomaSimples.js)
+- [Tuitando](https://github.com/felipetega/DIO.ME/blob/git/DESAFIOS/JavaScript/Tuitando.js)
