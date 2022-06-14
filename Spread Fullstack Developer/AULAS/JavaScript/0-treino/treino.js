@@ -29,43 +29,31 @@ const PESSOAS = [
 //mostre quem tem menos de 18 anos
 //quantos homens e mulheres
 
-function separaGenero(PESSOAS){
-  homens=[]
-  mulheres=[]
-  for(let i=0;i<PESSOAS.length;i++){
-    let {nome,genero}=PESSOAS[i]
-    if(genero=="M"){
-      homens.push(nome)
-    }else if(genero=="F"){
-      mulheres.push(nome)
-    }
-  }
-  console.log(`HOMENS: ${homens.length}, MULHERES: ${mulheres.length}`)
-}
-separaGenero(PESSOAS)
-
-function menorDeIdade(PESSOAS){
-  var menoresDeIdade=[]
-  for(let i=0;i<PESSOAS.length;i++){
-    let {nome,idade}=PESSOAS[i]
-    if(idade<=18){
-      menoresDeIdade.push(nome)
-    }
-  }
-  console.log(`Os menores de idade são: ${menoresDeIdade}`)
-}
-
-menorDeIdade(PESSOAS)
-
-function mesmaRua(PESSOAS){
-  moradoresSãoJoão=[]
-  for(let i = 0;i<PESSOAS.length;i++){
-    let {nome, endereco}=PESSOAS[i]
+function moradoresSaoJoaoo(grupo){
+  moradoresSaoJoaoo=[]
+  for(let i=0;i<grupo.length;i++){
+    let {nome,endereco}=grupo[i]
     if(endereco=="Rua São João"){
-      moradoresSãoJoão.push(nome)
+      moradoresSaoJoaoo.push(nome)
     }
   }
-  console.log(`Os moradores da São João são: ${moradoresSãoJoão}`)
+  console.log(`Os moradores da Rua São João são: ${moradoresSaoJoaoo}!`)
 }
+moradoresSaoJoaoo(PESSOAS)
 
-mesmaRua(PESSOAS)
+//this: call, apply, bind
+
+function getIndividual(lista){
+  for(let i =0;i<lista.length;i++){
+    let {nome,idade,endereco}=lista[i]
+    console.log(`${nome}, ${idade} anos, mora em:  ${endereco}`)
+  }
+}
+getIndividual(PESSOAS)
+
+//process.stdout.write
+
+//arrow function
+
+const arrowFunction = ()=> {console.log("===> ===> ===>")}
+arrowFunction()
