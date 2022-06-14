@@ -1,16 +1,3 @@
-const felipetega ={
-  id:20,
-  fullName:{
-    firstName:"Felipe",
-    middleName:"Crema",
-    lastName:"Ribeiro"
-  }
-}
-function nomeIdade({fullName:{firstName:first},id:idade}){
-  console.log(`A idade de ${first} é ${idade} anos`)
-}
-nomeIdade(felipetega)
-
 const GRUPO1 = [
   {nome:"Felipe",
   idade:20,
@@ -38,7 +25,15 @@ const GRUPO1 = [
   genero: "F"
   }
 ]
-//quantos homens e mulheres
-//mostre quem mora na Rua São João
-//mostre quem tem menos de 18 anos
 
+function getName(grupo){
+  process.stdout.write("Os integrantes do grupo são: ")
+  for(let i=0;i<grupo.length;i++){
+    let {nome}=grupo[i]
+    process.stdout.write(`${nome}, `);
+    if(i==grupo.length-1){
+      process.stdout.write(`${nome}! `)
+    }
+  }
+}
+getName(GRUPO1)
