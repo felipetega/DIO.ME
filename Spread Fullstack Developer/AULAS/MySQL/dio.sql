@@ -33,4 +33,20 @@ SELECT COUNT(genero), genero FROM pessoas GROUP BY genero
 /*JOIN, ON, AS*/
 SELECT * FROM videos_canais JOIN videos ON videos_canais.fk_canal = videos.id_vide
 
-SELECT * FROM videos_canais AS vc JOIN videos AS v ON vc.fk_canal = v.id_vide
+SELECT v.nome_video, v.autor_video, c.nome_canal
+FROM videos_canais AS vc JOIN videos AS v ON vc.fk_video = v.id_vide
+JOIN canais AS c ON vc.fk_canal = c.id_canal
+
+/*JOIN == INNER JOIN: SÓ TRAZ OS VALORES PRESENTES NA CONSULTA*/
+/*OUTER JOIN: TRAZ TBM VALORES NULL*/
+SELECT *
+FROM videos_canais AS vc
+RIGHT OUTER JOIN videos AS v ON vc.fk_video = v.id_video
+
+/*UNION: une consultas*/
+SELECT *
+FROM videos_canais AS vc
+UNION
+SELECT *
+FROM videos_canais AS vc
+RIGHT OUTER JOIN canais AS c ON vc.fk_canal = c.id_canal LIMIT 0, 25
