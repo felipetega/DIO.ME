@@ -1,6 +1,6 @@
 /*criar tabela*/
 CREATE TABLE pessoas(
-  id INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   nome VARCHAR(30) NOT NULL,
   nascimento DATE,
 )
