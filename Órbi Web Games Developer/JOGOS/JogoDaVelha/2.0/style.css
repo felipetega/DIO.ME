@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  background-color: darkslateblue;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jogoDaVelha{
+  height: 87vh;
+  width: 88vh;
+  background-color: darkgray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5vh;
+}
+
+.jogoDaVelha div{
+  display: inline-block;
+  background-color: azure;
+  width: 29vh;
+  height: 29vh;
+  cursor: pointer;
+  border-radius: 5vh;
+  text-align: center;
+  font-size: 25vh;
+  color: azure;
+}
