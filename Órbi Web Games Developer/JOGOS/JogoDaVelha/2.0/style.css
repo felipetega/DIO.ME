@@ -1,29 +1,38 @@
 body{
-  margin: 0;
-  background-color: darkslateblue;
+    margin: 0;
+    background-color: darkgray;
+    background-image: linear-gradient(to left,#344550,#9bd7db);
 }
-main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .jogoDaVelha{
-  height: 87vh;
-  width: 88vh;
-  background-color: darkgray;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    height: 60vh;
+    width: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .jogoDaVelha div{
-  display: inline-block;
-  background-color: azure;
-  width: 29vh;
-  height: 29vh;
-  cursor: pointer;
-  text-align: center;
-  font-size: 25vh;
-  color: azure;
+    display: inline-block;
+    background-color: darkslateblue;
+    width: 19vh;
+    height: 19vh;
+    cursor: pointer;
+    text-align: center;
+    font-size: 17vh;
+    color: darkslateblue;
+}
+
+#vencedor{
+    text-align: center;
+    font-size: 3vh;
+    position: absolute;
+    bottom: 5vh;
+
 }

@@ -20,14 +20,73 @@ function verificaVencedor() {
   quadrado9 = document.getElementById('velha9')
 
   if (
-    quadrado1.innerHTML === quadrado2.innerHTML &&
-    quadrado1.innerHTML === quadrado3.innerHTML &&
-    quadrado2.innerHTML === quadrado3.innerHTML
+    quadrado1.innerHTML == quadrado2.innerHTML &&
+    quadrado2.innerHTML == quadrado3.innerHTML &&
+    quadrado1.innerHTML != '-'
   ) {
-    var vencedor = jogador
-    var divVencedor = document.getElementById('vencedor')
-    divVencedor.innerText = `O vencedor é ${vencedor}`
+    mudaCorQuadrado(quadrado1, quadrado2, quadrado3)
+    declaraVencedor()
+  } else if (
+    quadrado4.innerHTML == quadrado5.innerHTML &&
+    quadrado5.innerHTML == quadrado6.innerHTML &&
+    quadrado4.innerHTML != '-'
+  ) {
+    mudaCorQuadrado(quadrado4, quadrado5, quadrado6)
+    declaraVencedor()
+  } else if (
+    quadrado7.innerHTML == quadrado8.innerHTML &&
+    quadrado8.innerHTML == quadrado9.innerHTML &&
+    quadrado7.innerHTML != '-'
+  ) {
+    mudaCorQuadrado(quadrado7, quadrado8, quadrado9)
+    declaraVencedor()
+  } else if (
+    quadrado1.innerHTML == quadrado4.innerHTML &&
+    quadrado4.innerHTML == quadrado7.innerHTML &&
+    quadrado1.innerHTML != '-'
+  ) {
+    mudaCorQuadrado(quadrado1, quadrado4, quadrado7)
+    declaraVencedor()
+  } else if (
+    quadrado2.innerHTML == quadrado5.innerHTML &&
+    quadrado5.innerHTML == quadrado8.innerHTML &&
+    quadrado2.innerHTML != '-'
+  ) {
+    mudaCorQuadrado(quadrado2, quadrado5, quadrado8)
+    declaraVencedor()
+  } else if (
+    quadrado3.innerHTML == quadrado6.innerHTML &&
+    quadrado6.innerHTML == quadrado9.innerHTML &&
+    quadrado3.innerHTML != '-'
+  ) {
+    mudaCorQuadrado(quadrado3, quadrado6, quadrado9)
+    declaraVencedor()
+  } else if (
+    quadrado1.innerHTML == quadrado5.innerHTML &&
+    quadrado5.innerHTML == quadrado9.innerHTML &&
+    quadrado1.innerHTML != '-'
+  ) {
+    mudaCorQuadrado(quadrado1, quadrado5, quadrado9)
+    declaraVencedor()
+  } else if (
+    quadrado7.innerHTML == quadrado5.innerHTML &&
+    quadrado5.innerHTML == quadrado3.innerHTML &&
+    quadrado3.innerHTML != '-'
+  ) {
+    mudaCorQuadrado(quadrado3, quadrado5, quadrado7)
+    declaraVencedor()
   }
+}
+
+function mudaCorQuadrado(q1, q2, q3) {
+  q1.style.background = 'green'
+  q2.style.background = 'green'
+  q3.style.background = 'green'
+}
+
+function declaraVencedor() {
+  var divVencedor = document.getElementById('vencedor')
+  divVencedor.innerText = `O vencedor é o jogador ${jogador}!`
 }
 
 function jogada(id) {
