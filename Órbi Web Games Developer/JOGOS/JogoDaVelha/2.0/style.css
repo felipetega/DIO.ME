@@ -15,7 +15,6 @@ main{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 5vh;
 }
 
 .jogoDaVelha div{
@@ -24,7 +23,6 @@ main{
   width: 29vh;
   height: 29vh;
   cursor: pointer;
-  border-radius: 5vh;
   text-align: center;
   font-size: 25vh;
   color: azure;

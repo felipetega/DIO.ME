@@ -11,17 +11,23 @@
     <header></header>
     <main>
       <div class="jogoDaVelha">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
+        <div id="velha1" class="velha" onclick="jogada(this.id)">-</div>
+        <div id="velha2" class="velha" onclick="jogada(this.id)">-</div>
+        <div id="velha3" class="velha" onclick="jogada(this.id)">-</div>
+        <div id="velha4" class="velha" onclick="jogada(this.id)">-</div>
+        <div id="velha5" class="velha" onclick="jogada(this.id)">-</div>
+        <div id="velha6" class="velha" onclick="jogada(this.id)">-</div>
+        <div id="velha7" class="velha" onclick="jogada(this.id)">-</div>
+        <div id="velha8" class="velha" onclick="jogada(this.id)">-</div>
+        <div id="velha9" class="velha" onclick="jogada(this.id)">-</div>
       </div>
     </main>
+    <section>
+      <div id="vencedor">O vencedor é...</div>
+      <div>
+        <input type="button" value="Restart" onclick="restart()" />
+      </div>
+    </section>
     <footer></footer>
   </body>
   <script src="script.js"></script>
