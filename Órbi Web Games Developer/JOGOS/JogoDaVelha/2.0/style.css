@@ -29,10 +29,27 @@ body{
     color: darkslateblue;
 }
 
-#vencedor{
-    text-align: center;
-    font-size: 3vh;
+button {
     position: absolute;
-    bottom: 5vh;
+    bottom: 0;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 2vh;
+    padding: 2vh 4vh;
+    border: none;
+    cursor: pointer;
+    border-radius: 1vh;
+    text-align: center;
+}
+  
+button:hover {
+    background-color: black;
+    color: white;
+}
 
+.score{
+    display: flex;
+    justify-content: space-around;
+    font-size: 4vh;
+    background-image: linear-gradient(to left,#4d3450,#d49bdb);
 }
