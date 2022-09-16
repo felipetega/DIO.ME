@@ -1,4 +1,6 @@
 var jogador = 'X'
+var xScore = 0
+var oScore = 0
 
 function mudaJogador() {
   if (jogador === 'X') {
@@ -75,14 +77,23 @@ function mudaCorQuadrado(q1, q2, q3) {
   q2.style.background = 'green'
   q3.style.background = 'green'
 
-  var vencedor = jogador
   var x = document.getElementById('X')
   var o = document.getElementById('O')
-  console.log(x)
-  if (vencedor == 'X') {
-    x.innerHTML += 1
+  if (jogador == 'X') {
+    xScore += 1
+    x.innerHTML = `X: ${xScore}`
   } else {
-    o.innerHTML += 1
+    oScore += 1
+    o.innerHTML = `O: ${oScore}`
+  }
+}
+
+function nextRound() {
+  for (let i = 1; i <= 9; i++) {
+    var quadrado = document.getElementById('velha' + i)
+    quadrado.style.background = 'darkslateblue'
+    quadrado.style.color = 'darkslateblue'
+    quadrado.innerHTML = '-'
   }
 }
 
