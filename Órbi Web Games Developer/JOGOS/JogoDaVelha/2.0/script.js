@@ -98,6 +98,12 @@ function nextRound() {
 }
 
 function jogada(id) {
+  for (let i = 1; i <= 9; i++) {
+    var quadrado = document.getElementById('velha' + i)
+    if (quadrado.style.background == 'green') {
+      return
+    }
+  }
   var quadrado = document.getElementById(id)
   if (quadrado.innerHTML !== '-') {
     return
