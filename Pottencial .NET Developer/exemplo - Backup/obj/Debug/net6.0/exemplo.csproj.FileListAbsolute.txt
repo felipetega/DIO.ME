@@ -1,0 +1,15 @@
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\bin\Debug\net6.0\exemplo.exe
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\bin\Debug\net6.0\exemplo.deps.json
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\bin\Debug\net6.0\exemplo.runtimeconfig.json
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\bin\Debug\net6.0\exemplo.dll
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\bin\Debug\net6.0\exemplo.pdb
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\obj\Debug\net6.0\exemplo.csproj.AssemblyReference.cache
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\obj\Debug\net6.0\exemplo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\obj\Debug\net6.0\exemplo.AssemblyInfoInputs.cache
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\obj\Debug\net6.0\exemplo.AssemblyInfo.cs
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\obj\Debug\net6.0\exemplo.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\obj\Debug\net6.0\exemplo.dll
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\obj\Debug\net6.0\refint\exemplo.dll
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\obj\Debug\net6.0\exemplo.pdb
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\obj\Debug\net6.0\exemplo.genruntimeconfig.cache
+C:\Users\Pichau\Documents\GitHub\.Estudos\DIO.ME\Pottencial .NET Developer\exemplo\obj\Debug\net6.0\ref\exemplo.dll

@@ -1,0 +1,13 @@
+dotnet new terminal
+dotnet build
+ctrl+aspas simples (abrir terminal)
+
+prop = gera uma propriedade na classe
+
+converter var = 
+Convert.ToInt32("");
+.ToString();
+
+string a = "15-";
+int.TryParse(a, out int b);
+Console.WriteLine(b);
